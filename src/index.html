@@ -1,0 +1,14 @@
+<!doctype html>
+<html> <head>
+<title>Live stock price ticker</title>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="client.js"></script>
+</head> 
+<body>
+Stock price: <span id="stockprice">no data yet</span> 
+<button id="buyButton" onclick="buy();">Buy</button>
+<HR>
+    <strong>Stock buy transactions by other users:</strong> <div id="boughtstockprices"></div>   
+</body>
+</html>
